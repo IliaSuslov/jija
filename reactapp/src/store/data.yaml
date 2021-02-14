@@ -1,0 +1,139 @@
+firm:
+  - name: Resione
+    web: "https://www.resione.com/"
+    ali: "https://resione.aliexpress.com"
+
+  - name: "Phrozen Sonic"
+
+  - name: Anycubic
+
+
+printer:
+  - name: Mini 4k
+    firm: "Phrozen Sonic"
+    type: Mono
+
+  - name: Mini
+    firm: "Phrozen Sonic"
+    type: Mono
+
+  - name: Mono X
+    firm: Anycubic
+    type: Mono
+
+  - name:
+
+resin:
+  - name: M58 Gray Tough ABS Like 3D Printer Resin
+    firm: Resione
+    tag:
+      - ABS
+
+
+  - name: M68 White Tough ABS Like Non-yellowing 3D Printer Resin
+    firm: Resione
+    tag:
+      - ABS
+    critical_exposure_value: 4.57mJ/cm²
+    penetration_depth: 0.125mm
+    shore_hardness: 86D
+    tensile_strength	:	54.3MPa
+    flexural_strength	:	63.8MPa
+    elongation_break	:	13.90%
+    viscosity:	307mpa.s （25℃)
+    notched_izod	:	58.1J/m
+
+  # high Precision
+  - name: M70 High Precision 3D Printer Resin Salmon Color
+    firm: Resione
+    tag:
+      Precision
+
+    hardness: 89D
+    heat_distortion_temperature: 68℃
+    tear_strength: 32MPa
+    flexural_strength: 51Mpa
+    notched_izod: 6.5J/m
+    elongation_break: 9%
+    viscosity: 360mpa.s
+
+  # Flexible
+  - name: F39 White Flexible Rubber-like 3D Printer Resin
+    firm: Resione
+    color: white
+    tag:
+      - Flexible
+
+    shore_hardness: 60~75A
+    tear_strength: 47.2KN/m
+    tensile_strength: 7.9MPa
+    elastic_modulus: 2.0Mpa
+    elongation_break: 255.1%
+    viscosity:	980mpa.s（25℃)
+
+
+  - name: F69 Black Flexible Rubber-like 3D Printer Resin
+    firm: Resione
+    color: black
+    tag:
+      - Flexible
+
+    hardness: 60~75A
+    tear_strength: 47.2KN/m
+    tensile_strength: 7.9MPa
+    elastic_modulus: 2.0Mpa
+    elongation_break: 255.1%
+    viscosity: 980mpa.s 25℃）
+
+  - name: F80 Dental Gum Color Elastic Resin 3D Printer Resin
+    firm: Resione
+    color: gum
+    tag:
+      - Dental
+
+    shore_hardness:	58a
+    tensile_strength: 1.7mpa
+    tear_strength: 5.7kn/m
+    elongation_break: 80%
+    viscosity:	2300mpa.s （25℃）
+
+
+  - name: K Black Tough ABS Like 3D Printer Resin
+    firm: Resione
+    tag:
+      - ABS
+    shore_hardness: 82D
+    tensile_strength:		52.5MPa
+    flexural_strength:		60.8Mpa
+    elongation_break:		16.80%
+    viscosity:	307mpa.s （25℃）
+    notched_izod:	58.4J/m
+
+  - name: G217 Clear Non-yellowing Tough ABS Like 3D Printer Resin
+    tag:
+      - ABS
+    shore_hardness:	90D
+    tensile_strength:	65.3MPa
+    flexural_strength:	77.3Mpa
+    elongation_break:	10.40%
+    notched_izod:	30.78J/m
+    Viscosity:	396mpa.s （25℃）
+
+  - name: D01S Dental Model 3D Printer Resin
+    tag:
+      - Dental
+    color: seashell
+
+
+  - name: W90/W90B Water Washable 3D Printer Resin
+    tag:
+      - washable
+      -
+    shore_hardness: 86D
+    tensile_strength: 40.2MPa
+    flexural_strength: 53.8Mpa
+    notched_izod: 10.4J/m
+    elongation_break: 11%
+    viscosity: 126mpa.s （25℃）
+
+

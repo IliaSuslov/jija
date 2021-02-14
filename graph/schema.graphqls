@@ -1,0 +1,117 @@
+# GraphQL schema example
+
+type Query {
+  Resins(
+    Filter: FilterResin
+    options: Options
+  ): [Resin!]!
+
+  ResinByID(ID: ID!):Resin!
+
+  Firms: [Firm!]!
+  FirmByID(ID: ID!):Firm!
+
+  Printers:[Printer!]!
+  PrinterByID(ID: ID!):Printer!
+
+  Types:[Type!]!
+  TypeByID(ID: ID!):Type!
+
+  Tags:[Tag!]!
+  TagByID(ID: ID!):Tag!
+}
+
+type Mutation {
+  NewResin(input: InputResin!): Resin!
+  UpdateResin(ID: String!, input: InputResin!): Resin!
+  DelResin(ID: String!):Boolean!
+
+  NewFirm(input: InputFirm!): Firm!
+  UpdateFirm(ID: String!, input: InputFirm!): Firm!
+
+  NewPrinter(input: InputPrinter!): Printer!
+  UpdatePrinter(ID: String!,input: InputPrinter!): Printer!
+
+  NewType(input: InputType!): Type!
+  UpdateType(ID: String!,input: InputType!): Type!
+
+  NewTag(input: InputTag!): Tag!
+  UpdateTag(ID: String!, input: InputTag!): Tag!
+}
+
+input Options{
+  limit:  Int
+  skip:   Int,
+  order:  String
+}
+
+
+input InputFirm{
+  name: String!
+  site: String!
+}
+
+type Firm {
+  ID: ID!
+  name: String!
+  site: String!
+}
+
+
+# Printer
+input InputPrinter{
+  name: String!
+  firmID: ID!
+}
+
+type Printer {
+  ID: ID!
+  name: String!
+  firmID: ID!
+  type: ID!
+}
+
+# Types
+input InputType{
+  name: String!
+  desc: String!
+}
+
+type Type {
+  ID: ID!
+  name: String!
+  desc: String!
+}
+
+#Resin
+input FilterResin{
+  name: String
+  desc: String
+  tag: InputTag
+}
+
+input InputResin{
+  name: String!
+  desc: String!
+  tags: [InputTag!]
+}
+
+type Resin{
+  ID: ID!
+  name: String!
+  desc: String!
+  tags: [Tag]
+  deleted: Boolean!
+}
+
+#Tag
+input InputTag{
+  name: String!
+  desc: String!
+}
+
+type Tag{
+  _id: ID!
+  name: String!
+  desc: String!
+}

@@ -1,0 +1,134 @@
+{
+  "resin": {
+    "filter": {},
+    "items": [
+      {
+        "description": "Gray tough resin",
+        "name": "M58",
+        "characteristics": "Hard and Tough； Sharp and easily observable details； Scratch resistant",
+        "tags": "ABS, Hard, Tough",
+        "manufacturer": "RESIONE",
+        "site": "https://aliexpress.ru/item/1005001617999685.html",
+        "image": "https://cdn.shopify.com/s/files/1/0464/1033/4360/products/M58800px_64x64@2x.jpg",
+        "basket": "https://aliexpress.ru/item/1005001617999685.html",
+        "params": [
+          {
+            "name": "Shore Hardness",
+            "method": "ASTM:D2240-05",
+            "value": "87D"
+          },
+          {
+            "name": "Tensile Strength",
+            "method": "ASTM: D638-14",
+            "value": "48.3MPa"
+          },
+          {
+            "name": "Flexural Strength",
+            "method": "ASTM: D790-10",
+            "value": "68.2MPa"
+          },
+          {
+            "name": "Elongation at Break",
+            "method": "Elongation at Break",
+            "value": "12,30 %"
+          },
+          {
+            "name": "Viscosity（25℃）",
+            "method": "ASTM:D4212-10",
+            "value": "307mpa.s"
+          },
+          {
+            "name": "Notched IZOD",
+            "method": "ASTM:D256-10",
+            "value": "51.4J/m"
+          }
+        ]
+      },
+      {
+        "name": "M68",
+        "description": "White tough resin",
+        "characteristics": "Hard and Tough； Non-yellowing",
+        "manufacturer": "RESIONE",
+        "params": [
+          {
+            "name": "Critical Exposure Value",
+            "value": "4.57mJ/cm²"
+          },
+          {
+            "name": "Penetration Depth",
+            "value": "0.125mm"
+          },
+          {
+            "name": "Shore Hardness",
+            "value": "86D",
+            "method": "ASTM:D2240-05"
+          },
+          {
+            "name": "Tensile Strength",
+            "value": "54.3MPa",
+            "method": "ASTM: D638-14"
+          },
+          {
+            "name": "Flexural Strength",
+            "value": "63.8MPa",
+            "method": "ASTM: D790-10"
+          },
+          {
+            "name": "Elongation at Break",
+            "value": "13,90 %",
+            "method": "ASTM: D638-14"
+          },
+          {
+            "name": "Viscosity（25℃)",
+            "value": "307mpa.s",
+            "method": "ASTM:D4212-10"
+          },
+          {
+            "name": "Notched IZOD",
+            "method": "ASTM:D256-10",
+            "value": "58.1J/m"
+          }
+        ]
+      },
+      {
+        "name": "F69",
+        "description": "Black flexible resin",
+        "manufacturer": "RESIONE"
+      },
+      {
+        "name": "F39T",
+        "description": "Transparent flexible resin",
+        "manufacturer": "RESIONE"
+      },
+      {
+        "name": "F80",
+        "description": "Elastic resin",
+        "manufacturer": "RESIONE"
+      },
+      {
+        "name": "HT100",
+        "description": "Heat-resistant resin",
+        "manufacturer": "RESIONE"
+      },
+      {
+        "name": "C01",
+        "description": "LCD dental castable resin",
+        "manufacturer": "RESIONE"
+      },
+      {
+        "name": "C02",
+        "description": "DLP dental castable resin",
+        "manufacturer": "RESIONE"
+      },
+      {
+        "name": "CMYK19",
+        "description": "CMYK color resin kit",
+        "manufacturer": "RESIONE"
+      }
+    ],
+    "item": {},
+    "param": {},
+    "params": [],
+    "error": ""
+  }
+}
