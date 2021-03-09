@@ -11,11 +11,15 @@ import Home from './screens/home/home.jsx';
 import Resin from './screens/resin/resin.jsx';
 import Json from './screens/json.jsx';
 import Resins from './screens/resin/resins.jsx';
+import Compare from './screens/compare/compare.jsx';
 
 function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/compare">
+          <Compare />
+        </Route>
         <Route path="/resins">
             <Resins />
         </Route>
@@ -25,6 +29,7 @@ function App() {
         <Route path="/json">
             <Json />
           </Route>
+     
         <Route path="/">
             <Home />
           </Route>

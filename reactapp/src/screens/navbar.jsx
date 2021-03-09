@@ -26,6 +26,7 @@ const Menu = (props)=>{
       </NavDropdown>
       {/*<Nav.Link href="#home">Firms</Nav.Link>*/}
         <NavLink href="/json">json</NavLink>
+        <NavLink href="/compare">Compare</NavLink>
     </Nav>
     {/*<Form inline>*/}
     {/*  <Form.Control type="text" placeholder="Search" className="mr-sm-2" />*/}
